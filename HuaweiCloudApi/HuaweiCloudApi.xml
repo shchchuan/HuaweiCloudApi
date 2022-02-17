@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HuaweiCloudApi</name>
+    </assembly>
+    <members>
+        <member name="M:HuaweiCloudApi.Controllers.IAMController.GetToken">
+            <summary>
+            get token
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:HuaweiCloudApi.Models.MobileBaseResponseData`1">
+            <summary>
+            基本Response
+            </summary>
+        </member>
+        <member name="P:HuaweiCloudApi.Models.MobileBaseResponseData`1.Status">
+            <summary>
+            状态码
+            </summary>
+        </member>
+        <member name="P:HuaweiCloudApi.Models.MobileBaseResponseData`1.Message">
+            <summary>
+            状态信息
+            </summary>
+        </member>
+        <member name="P:HuaweiCloudApi.Models.MobileBaseResponseData`1.Data">
+            <summary>
+            数据集合
+            </summary>
+        </member>
+        <member name="T:HuaweiCloudApi.Models.PageResponseData`1">
+            <summary>
+            page response data
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <!-- Badly formed XML comment ignored for member "T:HuaweiCloudApi.Models.EReponseCode" -->
+        <member name="F:HuaweiCloudApi.Models.EReponseCode.Success">
+            <summary>
+            操作成功
+            </summary>
+        </member>
+        <member name="F:HuaweiCloudApi.Models.EReponseCode.NoLogin">
+            <summary>
+            用户未登录
+            </summary>
+        </member>
+        <member name="F:HuaweiCloudApi.Models.EReponseCode.ParameterError">
+            <summary>
+            参数错误
+            </summary>
+        </member>
+        <member name="F:HuaweiCloudApi.Models.EReponseCode.BusinessError">
+            <summary>
+            业务错误
+            </summary>
+        </member>
+        <member name="F:HuaweiCloudApi.Models.EReponseCode.BusinessError_PosterFailed">
+            <summary>
+            无法获取海报
+            </summary>
+        </member>
+        <member name="F:HuaweiCloudApi.Models.EReponseCode.JoinGroupFailed">
+            <summary>
+            加入团失败
+            </summary>
+        </member>
+        <member name="F:HuaweiCloudApi.Models.EReponseCode.SysError">
+            <summary>
+            系统错误
+            </summary>
+        </member>
+    </members>
+</doc>
